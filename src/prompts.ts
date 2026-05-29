@@ -20,9 +20,19 @@ Examples:
 - Support: “Reset user password”, “Update documentation”, “Deploy release to production”, “Configure user permissions”, “Fix typo in code”, “Respond to support ticket”.
 - Challenge: “Integrate new authentication provider with custom workflow”, “Optimize algorithm for performance under new constraints”, “Investigate and resolve intermittent system crash with unknown cause”.
 
-If it was Support work, provide a brief description of what was done and why it was needed.
+If it was Support work, provide a brief description of what was done and why it was needed. In under 3 lines, summarize the work performed and its purpose. Only add the summary in the response.
 
-If it was a Challenge, answer the following checklist:
+Provide the summary in this exact format. Do not use markdown formatting (no bold, no asterisks, no headers):
+
+Work type: <value here>
+
+Summary:
+
+<summary text here>
+
+SRED Confidence: <value here>
+
+Only If work type was a Challenge, answer the following checklist:
 
 - What was the technological challenge?
 - Why is it a challenge?
